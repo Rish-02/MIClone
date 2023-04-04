@@ -1,0 +1,32 @@
+.nav{
+    z-index: 100;
+    background-color: white;
+    padding: 0.75rem;
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid rgba(43,43,43,0.137);
+}
+.navlinks{
+    color: rgb(59,59,59);
+    text-decoration: none;
+    margin: 0.5rem 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.navlinks:hover{
+    color: rgba(255, 68, 0, 0.822);
+    font-weight: 700;
+}
+#logoImage{
+    width: 10%;
+    padding-left: 2rem;
+}
+.searchbox{
+    display: flex;
+}
+.searchbox >input{
+    border: none;
+    border-bottom: 1px silver solid;
+}
